@@ -1,4 +1,5 @@
 #include <comms.h>
+#include <Arduino.h>
 
 // setup communication parameters
 void setup_comms(){
@@ -14,6 +15,8 @@ void parse_command(int* cmd_id, int* params, int* num_params){
     // wait for start byte
     while(Serial.available() > 0){
         int byte_in = Serial.read();
+        Serial.println("Byte received:");
+        Serial.println(byte_in, HEX);
         if(byte_in == (CMD_START & 0xFF)){ // check for start byte
             // read command id
             while(Serial.available() == 0);

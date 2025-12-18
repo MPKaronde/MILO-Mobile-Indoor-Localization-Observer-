@@ -31,9 +31,9 @@ void execute_command(int cmd_id, int* params, int num_params) {
 
 // main loop
 void loop() {
+    Serial.println("Waiting for command...");
     int cmd_id = -1;
     int params[PARAM_BUFFER_SIZE];  // buffer for parameters
-    int* overflow_params = nullptr; // in case of overflow
     int num_params = 0;
 
     // parse incoming command
@@ -45,4 +45,6 @@ void loop() {
     if(cmd_id != -1) {
         execute_command(cmd_id, params, num_params);
     }
+
+    delay(1000); // small delay to avoid overwhelming the serial buffer
 }

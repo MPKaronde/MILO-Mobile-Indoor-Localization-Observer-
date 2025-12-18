@@ -6,8 +6,8 @@
 #define BAUDRATE 9600                   // serial communication baudrate
 
 enum CommandID  {                       // command identifiers
-    CMD_START =         0xDEAD,     // starts a command
-    CMD_END =           0xBEEF,     // ends a command
+    CMD_START =         0xDEAD,     // starts a command, 57005
+    CMD_END =           0xBEEF,     // ends a command, 48879
     CMD_EXTEND =        0xFFFF,     // allows command to be split
     CMD_PING =          1,
     CMD_DRIVE_MOTOR =   2

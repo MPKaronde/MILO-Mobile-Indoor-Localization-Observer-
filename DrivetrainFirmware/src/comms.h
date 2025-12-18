@@ -3,16 +3,20 @@
 #define COMMS_H
 #include <Arduino.h>
 
-#define BAUDRATE 9600           // serial communication baudrate
+#define BAUDRATE 9600                   // serial communication baudrate
 
-enum CommandID  {               // command identifiers
-    CMD_START =     0xDEAD,
-    CMD_END =       0xBEEF,
-    CMD_PING =      1,
+enum CommandID  {                       // command identifiers
+    CMD_START =         0xDEAD,     // starts a command
+    CMD_END =           0xBEEF,     // ends a command
+    CMD_EXTEND =        0xFFFF,     // allows command to be split
+    CMD_PING =          1,
+    CMD_DRIVE_MOTOR =   2
 };
 
-void setup_comms();             // setup communication parameters
-void parse_command();           // parse incoming command
-void ping();                    // respond to ping command
+void setup_comms();                     // setup communication parameters
+void parse_command(int* cmd_id,         // parse incoming command
+    int* params, 
+    int* num_params);              
+void ping();                            // respond to ping command
 
 #endif // COMMS_H

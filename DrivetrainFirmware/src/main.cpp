@@ -31,7 +31,12 @@ void execute_command(int cmd_id, int* params, int num_params) {
 
 // main loop
 void loop() {
-    Serial.println("Waiting for command...");
+    static bool printed = false;
+    if(!printed) {
+        Serial.println("Drivetrain Firmware Initialized");
+        printed = true;
+    }
+
     int cmd_id = -1;
     int params[PARAM_BUFFER_SIZE];  // buffer for parameters
     int num_params = 0;
@@ -45,6 +50,4 @@ void loop() {
     if(cmd_id != -1) {
         execute_command(cmd_id, params, num_params);
     }
-
-    delay(1000); // small delay to avoid overwhelming the serial buffer
 }

@@ -12,7 +12,9 @@ Expect commands of structure:
 [START_BYTE][CMD_ID][NUM_PARAMS][PARAM_1]...[PARAM_N][END_BYTE]
 */
 void parse_command(int* cmd_id, int* params, int* num_params){
-    // wait for start byte
+    Serial.println("Waiting for command...");
+
+    // --- wait for start byte ---
     byte start_byte;
     while(true){
         if(Serial.available() >= 1){
@@ -22,29 +24,25 @@ void parse_command(int* cmd_id, int* params, int* num_params){
             }
         }
     }
-
     Serial.println("Start byte received");
 
-    // read command ID
-    while(Serial.available() < sizeof(int)) {}
+    // --- read command ID ---
+    while(Serial.available() < sizeof(int)) {} 
     Serial.readBytes((char*)cmd_id, sizeof(int));
-
     Serial.print("Command ID: ");
     Serial.println(*cmd_id);
 
-    // read number of parameters
+    // --- read number of parameters ---
     while(Serial.available() < sizeof(int)) {}
     Serial.readBytes((char*)num_params, sizeof(int));
-
     Serial.print("Number of parameters: ");
     Serial.println(*num_params);
 
-    // read parameters
+    // --- read parameters ---
     for(int i = 0; i < *num_params; i++){
         while(Serial.available() < sizeof(int)) {}
         Serial.readBytes((char*)&params[i], sizeof(int));
     }
-
     Serial.println("Parameters received");
     for(int i = 0; i < *num_params; i++){
         Serial.print("Param ");
@@ -53,10 +51,10 @@ void parse_command(int* cmd_id, int* params, int* num_params){
         Serial.println(params[i]);
     }
 
-    // read end byte
-    int end_byte;
-    while(Serial.available() < sizeof(int)) {}
-    Serial.readBytes((char*)&end_byte, sizeof(int));
+    // --- read end byte ---
+    byte end_byte;
+    while(Serial.available() < 1) {}  // only 1 byte now
+    Serial.readBytes(&end_byte, 1);
 
     if(end_byte != CMD_END){
         *cmd_id = CMD_ERROR;

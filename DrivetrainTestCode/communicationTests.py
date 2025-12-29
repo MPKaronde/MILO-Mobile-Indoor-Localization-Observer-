@@ -4,9 +4,9 @@ import time
 
 # --- CONFIGURATION ---
 PORT = '/dev/ttyUSB0'   # change to your port (COMx on Windows)
-BAUDRATE = 115200
-CMD_START = 0xAA        # must match Arduino definition
-CMD_END   = 0xBB        # must match Arduino definition
+BAUDRATE = 9600
+CMD_START = 0xDE        # must match Arduino definition
+CMD_END   = 0xBE        # must match Arduino definition
 
 # --- SETUP SERIAL ---
 ser = serial.Serial(PORT, BAUDRATE, timeout=1)

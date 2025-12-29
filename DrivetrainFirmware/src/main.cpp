@@ -17,6 +17,7 @@ void execute_command(int cmd_id, int* params, int num_params) {
             ping();
             break;
         case DRIVE_MOTOR:
+            Serial.println("Executing DRIVE_MOTOR");
             if(num_params >= 2) {
                 MotorID motor_id = static_cast<MotorID>(params[0]);
                 int position = static_cast<int>(params[1]);
@@ -24,12 +25,15 @@ void execute_command(int cmd_id, int* params, int num_params) {
             }
             break;
         case DRIVE_POSTION:
-            if(num_params >= 2) {
+            Serial.println("Executing DRIVE_POSITION");
+            if(num_params >= 1) {
                 int position = static_cast<int>(params[0]);
+                Serial.println("Driving both motors to position");
                 drive_forward(position); // assuming both motors get same position
             }
             break;
         case MIX_DRIVE:
+            Serial.println("Executing MIX_DRIVE");
             if(num_params >= 2) {
                 int left_position = static_cast<int>(params[0]);
                 int right_position = static_cast<int>(params[1]);
@@ -37,12 +41,14 @@ void execute_command(int cmd_id, int* params, int num_params) {
             }
             break;
         case TURN_IN_PLACE:
+            Serial.println("Executing TURN_IN_PLACE");
             if(num_params >= 1) {
                 int turn_angle_deg = static_cast<int>(params[0]);
                 turn_in_place(turn_angle_deg);
             }
             break;
         case DRIVE_DISTANCE:
+            Serial.println("Executing DRIVE_DISTANCE");
             if(num_params >= 1) {
                 int distance_mm = static_cast<int>(params[0]);
                 drive_forward_distance_mm(distance_mm);
@@ -73,7 +79,12 @@ void loop() {
 
     // execute command if valid
     if(cmd_id != -1) {
+        Serial.print("Executing command ID: ");
         execute_command(cmd_id, params, num_params);
+    }
+    else
+    {
+        Serial.println("No valid command received");
     }
 }   
 

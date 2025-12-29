@@ -32,4 +32,28 @@ void drive_motor(MotorID id, long position){
             motor->run();
         }
     }
+}
+
+// drive both motors forward by position amount
+void drive_forward(long position){
+    Left_Motor.setCurrentPosition(0);
+    Right_Motor.setCurrentPosition(0);
+    Left_Motor.moveTo(position);
+    Right_Motor.moveTo(position);
+    while(Left_Motor.distanceToGo() != 0 || Right_Motor.distanceToGo() != 0){
+        Left_Motor.run();
+        Right_Motor.run();
+    }
 }   
+
+// drive motors independently
+void mix_drive(long left_position, long right_position){
+    Left_Motor.setCurrentPosition(0);
+    Right_Motor.setCurrentPosition(0);
+    Left_Motor.moveTo(left_position);
+    Right_Motor.moveTo(right_position);
+    while(Left_Motor.distanceToGo() != 0 || Right_Motor.distanceToGo() != 0){
+        Left_Motor.run();
+        Right_Motor.run();
+    }   
+}

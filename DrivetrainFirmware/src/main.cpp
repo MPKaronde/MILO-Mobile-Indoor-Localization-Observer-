@@ -51,9 +51,7 @@ void loop() {
     //     execute_command(cmd_id, params, num_params);
     // }
 
-    drive_motor(LEFT_MOTOR, 200);
-    delay(1000);
-    drive_motor(RIGHT_MOTOR, 200);
-    delay(1000);
-}
+    mix_drive(1000, 500);
+    delay(100);
+}   
 

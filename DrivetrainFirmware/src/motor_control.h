@@ -24,15 +24,15 @@ AccelStepper* get_motor(MotorID id);                        // get motor object 
 
 // administrative / misc functions
 void setup_motors();                                        // setup motor constants
-long mm_to_steps(long mm);                                  // convert mm to steps
-void calculate_turn_steps(long turn_angle_deg,              // calculate steps for a turn in place, >0 -> right turn
-    long* left_steps, long* right_steps); 
+int mm_to_steps(int mm);                                    // convert mm to steps
+void calculate_turn_steps(int turn_angle_deg,               // calculate steps for a turn in place, >0 -> right turn
+    int* left_steps, int* right_steps); 
 
 // motor control functions
-void drive_motor(MotorID id, long position);                // drive motor by position amount
-void drive_forward(long position);                          // drive both motors forward by position amount
-void mix_drive(long left_position, long right_position);    // drive motors independently
-void turn_in_place(long turn_angle_deg);                    // turn robot in place by angle, >0 -> right turn
-void drive_forward_distance_mm(long distance_mm);           // drive both motors forward by distance in mm
+void drive_motor(MotorID id, int position);                 // drive motor by position amount
+void drive_forward(int position);                           // drive both motors forward by position amount
+void mix_drive(int left_position, int right_position);      // drive motors independently
+void turn_in_place(int turn_angle_deg);                     // turn robot in place by angle, >0 -> right turn
+void drive_forward_distance_mm(int distance_mm);            // drive both motors forward by distance in mm
 
 #endif // MOTOR_CONTROL_H

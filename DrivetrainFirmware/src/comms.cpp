@@ -13,39 +13,56 @@ Expect commands of structure:
 */
 void parse_command(int* cmd_id, int* params, int* num_params){
     // wait for start byte
-    while(Serial.available() > 0){
-        int byte_in = Serial.read();
-        Serial.println("Byte received:");
-        Serial.println(byte_in, HEX);
-        if(byte_in == (CMD_START & 0xFF)){ // check for start byte
-            // read command id
-            while(Serial.available() == 0);
-            *cmd_id = Serial.read();
-            
-            // read number of parameters
-            while(Serial.available() == 0);
-            *num_params = Serial.read();
-            
-            // read parameters
-            for(int i = 0; i < *num_params; i++){
-                while(Serial.available() == 0);
-                params[i] = Serial.read();
-            }
-            
-            // wait for end byte
-            while(Serial.available() == 0);
-            int end_byte = Serial.read();
-            if(end_byte == (CMD_END & 0xFF)){
-                // valid command received
-                return;
-            } else {
-                // invalid command, reset cmd_id and num_params
-                *cmd_id = -1;
-                *num_params = 0;
-                return;
+    byte start_byte;
+    while(true){
+        if(Serial.available() >= 1){
+            Serial.readBytes(&start_byte, 1);
+            if(start_byte == CMD_START){
+                break;
             }
         }
     }
+
+    Serial.println("Start byte received");
+
+    // read command ID
+    while(Serial.available() < sizeof(int)) {}
+    Serial.readBytes((char*)cmd_id, sizeof(int));
+
+    Serial.print("Command ID: ");
+    Serial.println(*cmd_id);
+
+    // read number of parameters
+    while(Serial.available() < sizeof(int)) {}
+    Serial.readBytes((char*)num_params, sizeof(int));
+
+    Serial.print("Number of parameters: ");
+    Serial.println(*num_params);
+
+    // read parameters
+    for(int i = 0; i < *num_params; i++){
+        while(Serial.available() < sizeof(int)) {}
+        Serial.readBytes((char*)&params[i], sizeof(int));
+    }
+
+    Serial.println("Parameters received");
+    for(int i = 0; i < *num_params; i++){
+        Serial.print("Param ");
+        Serial.print(i);
+        Serial.print(": ");
+        Serial.println(params[i]);
+    }
+
+    // read end byte
+    int end_byte;
+    while(Serial.available() < sizeof(int)) {}
+    Serial.readBytes((char*)&end_byte, sizeof(int));
+
+    if(end_byte != CMD_END){
+        *cmd_id = CMD_ERROR;
+        Serial.println("Error: Invalid end byte");
+    }
+    Serial.println("End byte received");
 }
 
 // respond to ping command

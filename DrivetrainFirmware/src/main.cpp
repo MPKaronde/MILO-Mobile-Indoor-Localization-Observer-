@@ -19,32 +19,32 @@ void execute_command(int cmd_id, int* params, int num_params) {
         case DRIVE_MOTOR:
             if(num_params >= 2) {
                 MotorID motor_id = static_cast<MotorID>(params[0]);
-                long position = static_cast<long>(params[1]);
+                int position = static_cast<int>(params[1]);
                 drive_motor(motor_id, position);
             }
             break;
         case DRIVE_POSTION:
             if(num_params >= 2) {
-                long position = static_cast<long>(params[0]);
+                int position = static_cast<int>(params[0]);
                 drive_forward(position); // assuming both motors get same position
             }
             break;
         case MIX_DRIVE:
-            if(num_params >= 1) {
-                long left_position = static_cast<long>(params[0]);
-                long right_position = static_cast<long>(params[1]);
+            if(num_params >= 2) {
+                int left_position = static_cast<int>(params[0]);
+                int right_position = static_cast<int>(params[1]);
                 mix_drive(left_position, right_position);
             }
             break;
         case TURN_IN_PLACE:
             if(num_params >= 1) {
-                long turn_angle_deg = static_cast<long>(params[0]);
+                int turn_angle_deg = static_cast<int>(params[0]);
                 turn_in_place(turn_angle_deg);
             }
             break;
         case DRIVE_DISTANCE:
             if(num_params >= 1) {
-                long distance_mm = static_cast<long>(params[0]);
+                int distance_mm = static_cast<int>(params[0]);
                 drive_forward_distance_mm(distance_mm);
             }
             break;

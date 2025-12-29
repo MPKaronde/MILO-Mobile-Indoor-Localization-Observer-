@@ -5,8 +5,8 @@ SERIAL_PORT = "/dev/ttyUSB0"
 BAUD_RATE = 9600
 TIMEOUT = 0.2   # short timeout = "response finished"
 
-CMD_START = 0xAA
-CMD_END   = 0x55
+CMD_START = 0xDEaD
+CMD_END   = 0xBEEF
 
 with serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=TIMEOUT) as ser:
     time.sleep(2)  # allow Arduino reset

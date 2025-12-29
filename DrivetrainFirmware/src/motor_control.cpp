@@ -2,7 +2,7 @@
 
 // motor objects
 AccelStepper Left_Motor(HALFSTEP, 8, 9, 10, 11);
-AccelStepper Right_Motor(HALFSTEP, 4, 5, 6, 7); 
+AccelStepper Right_Motor(HALFSTEP, 2, 3, 4, 5); 
 
 // setup motor constants
 void setup_motors(){

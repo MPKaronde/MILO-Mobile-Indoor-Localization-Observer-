@@ -31,23 +31,29 @@ void execute_command(int cmd_id, int* params, int num_params) {
 
 // main loop
 void loop() {
-    static bool printed = false;
-    if(!printed) {
-        Serial.println("Drivetrain Firmware Initialized");
-        printed = true;
-    }
+    // static bool printed = false;
+    // if(!printed) {
+    //     Serial.println("Drivetrain Firmware Initialized");
+    //     printed = true;
+    // }
 
-    int cmd_id = -1;
-    int params[PARAM_BUFFER_SIZE];  // buffer for parameters
-    int num_params = 0;
+    // int cmd_id = -1;
+    // int params[PARAM_BUFFER_SIZE];  // buffer for parameters
+    // int num_params = 0;
 
-    // parse incoming command
-    parse_command(&cmd_id, params, &num_params);
+    // // parse incoming command
+    // parse_command(&cmd_id, params, &num_params);
 
-    // TODO: handle overflow on num params with more packets if needed
+    // // TODO: handle overflow on num params with more packets if needed
 
-    // execute command if valid
-    if(cmd_id != -1) {
-        execute_command(cmd_id, params, num_params);
-    }
+    // // execute command if valid
+    // if(cmd_id != -1) {
+    //     execute_command(cmd_id, params, num_params);
+    // }
+
+    drive_motor(LEFT_MOTOR, 200);
+    delay(1000);
+    drive_motor(RIGHT_MOTOR, 200);
+    delay(1000);
 }
+

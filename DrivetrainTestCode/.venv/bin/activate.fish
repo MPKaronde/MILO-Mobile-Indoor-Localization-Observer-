@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/manav/Documents/projects/MILO-Mobile-Indoor-Localization-Observer-/DrivetrainControllerNode/.venv
+set -gx VIRTUAL_ENV /home/manav/Documents/projects/MILO-Mobile-Indoor-Localization-Observer-/DrivetrainTestCode/.venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

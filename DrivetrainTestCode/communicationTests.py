@@ -1,47 +1,56 @@
 import serial
+import struct
 import time
 
-SERIAL_PORT = "/dev/ttyUSB0"
-BAUD_RATE = 9600
-TIMEOUT = 0.2   # short timeout = "response finished"
+# --- CONFIGURATION ---
+PORT = '/dev/ttyUSB0'   # change to your port (COMx on Windows)
+BAUDRATE = 9600
+CMD_START = 0xDE        # must match Arduino definition
+CMD_END   = 0xBE        # must match Arduino definition
 
-CMD_START = 0xAA
-CMD_END   = 0x55
+# --- SETUP SERIAL ---
+ser = serial.Serial(PORT, BAUDRATE, timeout=1)
+time.sleep(2)  # wait for Arduino to reset
 
-with serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=TIMEOUT) as ser:
-    time.sleep(2)  # allow Arduino reset
+# --- USER INPUT ---
+cmd_id = int(input("Enter command ID (integer): "))
+num_params = int(input("Enter number of parameters: "))
+params = []
+for i in range(num_params):
+    p = int(input(f"Enter parameter {i}: "))
+    params.append(p)
 
-    for cmd_id in range(256):
-        params = []  # no params for now
-        num_params = len(params)
+# --- BUILD COMMAND ---
+# Arduino expects: START_BYTE (1 byte), CMD_ID (int, 2 bytes), NUM_PARAMS (int, 2 bytes), PARAMS (int each, 2 bytes), END_BYTE (int, 2 bytes)
+command_bytes = bytearray()
 
-        packet = bytes(
-            [CMD_START, cmd_id, num_params] +
-            params +
-            [CMD_END]
-        )
+# Start byte
+command_bytes.append(CMD_START)
 
-        # --- SEND COMMAND ---
-        ser.write(packet)
-        print(f"\nSent CMD {cmd_id:#04x}")
+# CMD_ID
+command_bytes += struct.pack('<h', cmd_id)  # '<h' = little-endian 2-byte int
 
-        # --- READ EVERYTHING RETURNED ---
-        responses = []
+# NUM_PARAMS
+command_bytes += struct.pack('<h', num_params)
 
-        while True:
-            line = ser.readline()
-            if not line:
-                break  # timeout → no more data
+# PARAMETERS
+for p in params:
+    command_bytes += struct.pack('<h', p)
 
-            try:
-                decoded = line.decode("utf-8").strip()
-                responses.append(decoded)
-            except UnicodeDecodeError:
-                responses.append(f"<binary> {line.hex()}")
+# End byte
+command_bytes += struct.pack('<h', CMD_END)
 
-        # --- PRINT RESPONSE ---
-        for r in responses:
-            print("Received:", r)
+# --- SEND COMMAND ---
+ser.write(command_bytes)
+print("Sent command bytes:", list(command_bytes))
 
-        # optional pacing
-        time.sleep(1)
+# --- READ ARDUINO DEBUG OUTPUT ---
+print("\nArduino response:")
+while True:
+    line = ser.readline().decode('utf-8', errors='ignore').strip()
+    if line:
+        print(line)
+    else:
+        break  # stop if nothing comes in after timeout
+
+ser.close()

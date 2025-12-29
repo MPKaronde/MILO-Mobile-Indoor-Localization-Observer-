@@ -76,3 +76,18 @@ void calculate_turn_steps(long turn_angle_deg,
     *left_steps = steps;
     *right_steps = -steps;
 }
+
+// turn robot in place by angle
+// direction: + -> turn right, - -> turn left
+void turn_in_place(long turn_angle_deg){
+    long left_steps = 0;
+    long right_steps = 0;
+    calculate_turn_steps(turn_angle_deg, &left_steps, &right_steps);
+    mix_drive(left_steps, right_steps);
+}
+
+// drive both motors forward by distance in mm
+void drive_forward_distance_mm(long distance_mm){
+    long steps = mm_to_steps(distance_mm);
+    drive_forward(steps);
+}

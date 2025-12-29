@@ -57,3 +57,22 @@ void mix_drive(long left_position, long right_position){
         Right_Motor.run();
     }   
 }
+
+// convert mm to steps
+long mm_to_steps(long mm){
+    return static_cast<long>(mm * STEPS_PER_MM);
+}
+
+// calculate steps for a turn in place
+// direction: + -> turn right, - -> turn left
+void calculate_turn_steps(long turn_angle_deg,
+    long* left_steps, long* right_steps){
+    // calculate the arc length each wheel needs to travel
+    double turn_circumference_mm = WHEEL_CENTER_DISTANCE_MM * 3.14159; // assuming 200mm between wheels
+    double arc_length_mm = (turn_angle_deg / 360.0) * turn_circumference_mm;    
+    // convert to steps
+    long steps = mm_to_steps(static_cast<long>(arc_length_mm));
+    // set left and right steps (one forward, one backward)
+    *left_steps = steps;
+    *right_steps = -steps;
+}

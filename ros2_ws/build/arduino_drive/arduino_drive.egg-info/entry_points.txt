@@ -1,0 +1,4 @@
+[console_scripts]
+drive_action_client = arduino_drive.drive_action_client:main
+drive_action_server = arduino_drive.drive_action_server:main
+

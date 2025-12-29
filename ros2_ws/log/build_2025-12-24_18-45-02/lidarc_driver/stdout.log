@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lidarc_driver/lidarc_driver.egg-info
+writing ../../build/lidarc_driver/lidarc_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidarc_driver/lidarc_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/lidarc_driver/lidarc_driver.egg-info/entry_points.txt
+writing requirements to ../../build/lidarc_driver/lidarc_driver.egg-info/requires.txt
+writing top-level names to ../../build/lidarc_driver/lidarc_driver.egg-info/top_level.txt
+writing manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver
+copying lidarc_driver/__init__.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver
+copying lidarc_driver/lidarc_node.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver
+running install
+running install_lib
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver
+copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver/__init__.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver
+copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver/lidarc_node.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver
+byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver/lidarc_node.py to lidarc_node.cpython-310.pyc
+running install_data
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages
+copying resource/lidarc_driver -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver
+running install_egg_info
+Copying ../../build/lidarc_driver/lidarc_driver.egg-info to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidarc_node script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/lidarc_driver
+writing list of installed files to '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/install.log'

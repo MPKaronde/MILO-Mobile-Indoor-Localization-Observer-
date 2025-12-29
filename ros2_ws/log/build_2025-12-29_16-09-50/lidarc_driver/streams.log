@@ -1,0 +1,19 @@
+[11.581s] Invoking command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build --no-deps symlink_data --force
+[14.889s] running develop
+[17.208s] running egg_info
+[17.220s] writing lidarc_driver.egg-info/PKG-INFO
+[17.222s] writing dependency_links to lidarc_driver.egg-info/dependency_links.txt
+[17.241s] writing entry points to lidarc_driver.egg-info/entry_points.txt
+[17.242s] writing requirements to lidarc_driver.egg-info/requires.txt
+[17.243s] writing top-level names to lidarc_driver.egg-info/top_level.txt
+[17.250s] reading manifest file 'lidarc_driver.egg-info/SOURCES.txt'
+[17.254s] writing manifest file 'lidarc_driver.egg-info/SOURCES.txt'
+[17.264s] running build_ext
+[17.265s] Creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc-driver.egg-link (link to .)
+[17.276s] Installing lidarc_node script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/lidarc_driver
+[17.295s] 
+[17.296s] Installed /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver
+[17.298s] running symlink_data
+[17.313s] symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/resource/lidarc_driver -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages
+[17.317s] symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver
+[17.651s] Invoked command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver' returned '0': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build --no-deps symlink_data --force

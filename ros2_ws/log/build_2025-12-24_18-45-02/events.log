@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.003477] (lidarc_driver) JobQueued: {'identifier': 'lidarc_driver', 'dependencies': OrderedDict()}
+[0.004639] (lidarc_driver) JobStarted: {'identifier': 'lidarc_driver'}
+[0.097869] (-) TimerEvent: {}
+[0.199741] (-) TimerEvent: {}
+[0.301009] (-) TimerEvent: {}
+[0.402217] (-) TimerEvent: {}
+[0.503384] (-) TimerEvent: {}
+[0.604557] (-) TimerEvent: {}
+[0.705821] (-) TimerEvent: {}
+[0.807008] (-) TimerEvent: {}
+[0.908200] (-) TimerEvent: {}
+[1.009420] (-) TimerEvent: {}
+[1.110659] (-) TimerEvent: {}
+[1.211803] (-) TimerEvent: {}
+[1.312971] (-) TimerEvent: {}
+[1.414113] (-) TimerEvent: {}
+[1.515357] (-) TimerEvent: {}
+[1.616486] (-) TimerEvent: {}
+[1.717658] (-) TimerEvent: {}
+[1.818821] (-) TimerEvent: {}
+[1.920019] (-) TimerEvent: {}
+[2.021244] (-) TimerEvent: {}
+[2.122461] (-) TimerEvent: {}
+[2.223625] (-) TimerEvent: {}
+[2.324879] (-) TimerEvent: {}
+[2.426080] (-) TimerEvent: {}
+[2.527399] (-) TimerEvent: {}
+[2.628509] (-) TimerEvent: {}
+[2.729793] (-) TimerEvent: {}
+[2.831175] (-) TimerEvent: {}
+[2.933918] (-) TimerEvent: {}
+[3.035966] (-) TimerEvent: {}
+[3.138403] (-) TimerEvent: {}
+[3.239688] (-) TimerEvent: {}
+[3.340839] (-) TimerEvent: {}
+[3.441988] (-) TimerEvent: {}
+[3.543184] (-) TimerEvent: {}
+[3.644519] (-) TimerEvent: {}
+[3.745831] (-) TimerEvent: {}
+[3.847071] (-) TimerEvent: {}
+[3.948246] (-) TimerEvent: {}
+[4.049465] (-) TimerEvent: {}
+[4.150659] (-) TimerEvent: {}
+[4.251939] (-) TimerEvent: {}
+[4.353151] (-) TimerEvent: {}
+[4.454317] (-) TimerEvent: {}
+[4.555533] (-) TimerEvent: {}
+[4.656704] (-) TimerEvent: {}
+[4.757888] (-) TimerEvent: {}
+[4.859026] (-) TimerEvent: {}
+[4.960214] (-) TimerEvent: {}
+[5.061439] (-) TimerEvent: {}
+[5.162613] (-) TimerEvent: {}
+[5.263800] (-) TimerEvent: {}
+[5.365133] (-) TimerEvent: {}
+[5.466316] (-) TimerEvent: {}
+[5.567466] (-) TimerEvent: {}
+[5.669033] (-) TimerEvent: {}
+[5.770451] (-) TimerEvent: {}
+[5.871632] (-) TimerEvent: {}
+[5.972980] (-) TimerEvent: {}
+[6.074262] (-) TimerEvent: {}
+[6.175538] (-) TimerEvent: {}
+[6.276834] (-) TimerEvent: {}
+[6.378175] (-) TimerEvent: {}
+[6.479405] (-) TimerEvent: {}
+[6.580741] (-) TimerEvent: {}
+[6.682271] (-) TimerEvent: {}
+[6.783541] (-) TimerEvent: {}
+[6.884881] (-) TimerEvent: {}
+[6.986213] (-) TimerEvent: {}
+[7.087486] (-) TimerEvent: {}
+[7.188695] (-) TimerEvent: {}
+[7.289952] (-) TimerEvent: {}
+[7.391766] (-) TimerEvent: {}
+[7.493362] (-) TimerEvent: {}
+[7.594563] (-) TimerEvent: {}
+[7.695952] (-) TimerEvent: {}
+[7.797333] (-) TimerEvent: {}
+[7.856507] (lidarc_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidarc_driver', 'build', '--build-base', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build', 'install', '--record', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'milo', 'SSH_CLIENT': '192.168.10.222 50201 22', 'SSH_AGENT_PID': '1006', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/milo', 'OLDPWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/milo/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'milo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXLabpOG/agent.1005', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver', 'SSH_CONNECTION': '192.168.10.222 50201 192.168.10.152 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.897626] (-) TimerEvent: {}
+[7.998934] (-) TimerEvent: {}
+[8.100165] (-) TimerEvent: {}
+[8.201437] (-) TimerEvent: {}
+[8.302622] (-) TimerEvent: {}
+[8.403834] (-) TimerEvent: {}
+[8.505159] (-) TimerEvent: {}
+[8.607112] (-) TimerEvent: {}
+[8.708301] (-) TimerEvent: {}
+[8.809541] (-) TimerEvent: {}
+[8.910666] (-) TimerEvent: {}
+[9.011863] (-) TimerEvent: {}
+[9.113102] (-) TimerEvent: {}
+[9.214263] (-) TimerEvent: {}
+[9.315457] (-) TimerEvent: {}
+[9.416705] (-) TimerEvent: {}
+[9.517902] (-) TimerEvent: {}
+[9.620432] (-) TimerEvent: {}
+[9.721720] (-) TimerEvent: {}
+[9.822870] (-) TimerEvent: {}
+[9.924070] (-) TimerEvent: {}
+[10.025311] (-) TimerEvent: {}
+[10.126516] (-) TimerEvent: {}
+[10.227712] (-) TimerEvent: {}
+[10.328904] (-) TimerEvent: {}
+[10.430127] (-) TimerEvent: {}
+[10.503751] (lidarc_driver) StdoutLine: {'line': b'running egg_info\n'}
+[10.510762] (lidarc_driver) StdoutLine: {'line': b'creating ../../build/lidarc_driver/lidarc_driver.egg-info\n'}
+[10.512393] (lidarc_driver) StdoutLine: {'line': b'writing ../../build/lidarc_driver/lidarc_driver.egg-info/PKG-INFO\n'}
+[10.514813] (lidarc_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/lidarc_driver/lidarc_driver.egg-info/dependency_links.txt\n'}
+[10.516131] (lidarc_driver) StdoutLine: {'line': b'writing entry points to ../../build/lidarc_driver/lidarc_driver.egg-info/entry_points.txt\n'}
+[10.517751] (lidarc_driver) StdoutLine: {'line': b'writing requirements to ../../build/lidarc_driver/lidarc_driver.egg-info/requires.txt\n'}
+[10.519640] (lidarc_driver) StdoutLine: {'line': b'writing top-level names to ../../build/lidarc_driver/lidarc_driver.egg-info/top_level.txt\n'}
+[10.521649] (lidarc_driver) StdoutLine: {'line': b"writing manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'\n"}
+[10.530378] (-) TimerEvent: {}
+[10.536083] (lidarc_driver) StdoutLine: {'line': b"reading manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'\n"}
+[10.544176] (lidarc_driver) StdoutLine: {'line': b"writing manifest file '../../build/lidarc_driver/lidarc_driver.egg-info/SOURCES.txt'\n"}
+[10.545586] (lidarc_driver) StdoutLine: {'line': b'running build\n'}
+[10.546879] (lidarc_driver) StdoutLine: {'line': b'running build_py\n'}
+[10.548526] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build\n'}
+[10.550074] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib\n'}
+[10.551007] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver\n'}
+[10.552250] (lidarc_driver) StdoutLine: {'line': b'copying lidarc_driver/__init__.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver\n'}
+[10.553354] (lidarc_driver) StdoutLine: {'line': b'copying lidarc_driver/lidarc_node.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver\n'}
+[10.554560] (lidarc_driver) StdoutLine: {'line': b'running install\n'}
+[10.556926] (lidarc_driver) StdoutLine: {'line': b'running install_lib\n'}
+[10.563352] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver\n'}
+[10.564756] (lidarc_driver) StdoutLine: {'line': b'copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver/__init__.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver\n'}
+[10.566395] (lidarc_driver) StdoutLine: {'line': b'copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build/lib/lidarc_driver/lidarc_node.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver\n'}
+[10.571715] (lidarc_driver) StdoutLine: {'line': b'byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[10.574990] (lidarc_driver) StdoutLine: {'line': b'byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver/lidarc_node.py to lidarc_node.cpython-310.pyc\n'}
+[10.583268] (lidarc_driver) StdoutLine: {'line': b'running install_data\n'}
+[10.584716] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index\n'}
+[10.586179] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index\n'}
+[10.587373] (lidarc_driver) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages\n'}
+[10.588381] (lidarc_driver) StdoutLine: {'line': b'copying resource/lidarc_driver -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages\n'}
+[10.590259] (lidarc_driver) StdoutLine: {'line': b'copying package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver\n'}
+[10.591287] (lidarc_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.605064] (lidarc_driver) StdoutLine: {'line': b'Copying ../../build/lidarc_driver/lidarc_driver.egg-info to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc_driver-0.0.0-py3.10.egg-info\n'}
+[10.617786] (lidarc_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[10.630623] (-) TimerEvent: {}
+[10.731784] (-) TimerEvent: {}
+[10.809209] (lidarc_driver) StdoutLine: {'line': b'Installing lidarc_node script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/lidarc_driver\n'}
+[10.812372] (lidarc_driver) StdoutLine: {'line': b"writing list of installed files to '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/install.log'\n"}
+[10.832185] (-) TimerEvent: {}
+[10.933655] (-) TimerEvent: {}
+[11.035243] (-) TimerEvent: {}
+[11.065476] (lidarc_driver) CommandEnded: {'returncode': 0}
+[11.136342] (-) TimerEvent: {}
+[11.213362] (lidarc_driver) JobEnded: {'identifier': 'lidarc_driver', 'rc': 0}
+[11.219134] (-) EventReactorShutdown: {}

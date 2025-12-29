@@ -1,0 +1,129 @@
+[1.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff83853010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8398c3a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8398c3a0>>)
+[3.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.029s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extension 'ignore'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extension 'ignore_ament_install'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extensions ['colcon_pkg']
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extension 'colcon_pkg'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extensions ['colcon_meta']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extension 'colcon_meta'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extensions ['ros']
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidarc_driver) by extension 'ros'
+[3.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidarc_driver' with type 'ros.ament_python' and name 'lidarc_driver'
+[3.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.385s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/milo/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[3.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.968s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_args' from command line to 'None'
+[3.968s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_target' from command line to 'None'
+[3.969s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.969s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.969s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.969s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.970s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.970s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.970s] Level 5:colcon.colcon_core.verb:set package 'lidarc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.971s] DEBUG:colcon.colcon_core.verb:Building package 'lidarc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver', 'merge_install': False, 'path': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver', 'symlink_install': False, 'test_result_base': None}
+[3.972s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.981s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver' with build type 'ament_python'
+[3.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidarc_driver', 'ament_prefix_path')
+[4.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/ament_prefix_path.ps1'
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/ament_prefix_path.dsv'
+[4.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/ament_prefix_path.sh'
+[4.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.885s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver'
+[6.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidarc_driver build --build-base /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build install --record /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/install.log --single-version-externally-managed install_data
+[15.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/lidarc_driver' returned '0': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidarc_driver build --build-base /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build install --record /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/install.log --single-version-externally-managed install_data
+[15.094s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver' for CMake module files
+[15.101s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver' for CMake config files
+[15.110s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib'
+[15.112s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/bin'
+[15.113s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/pkgconfig/lidarc_driver.pc'
+[15.115s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages'
+[15.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidarc_driver', 'pythonpath')
+[15.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/pythonpath.ps1'
+[15.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/pythonpath.dsv'
+[15.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/hook/pythonpath.sh'
+[15.135s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/bin'
+[15.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidarc_driver)
+[15.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/package.ps1'
+[15.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/package.dsv'
+[15.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/package.sh'
+[15.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/package.bash'
+[15.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver/package.zsh'
+[15.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/colcon-core/packages/lidarc_driver)
+[15.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.197s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.263s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.269s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.270s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/local_setup.ps1'
+[15.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/_local_setup_util_ps1.py'
+[15.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/setup.ps1'
+[15.308s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/local_setup.sh'
+[15.314s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/_local_setup_util_sh.py'
+[15.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/setup.sh'
+[15.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/local_setup.bash'
+[15.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/setup.bash'
+[15.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/local_setup.zsh'
+[15.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/setup.zsh'

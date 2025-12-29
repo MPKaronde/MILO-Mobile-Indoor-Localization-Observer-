@@ -1,0 +1,7 @@
+int32 cmd_id
+int32[] params
+---
+bool success
+string message
+---
+string feedback

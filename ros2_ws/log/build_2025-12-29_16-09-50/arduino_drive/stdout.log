@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating arduino_drive.egg-info
+writing arduino_drive.egg-info/PKG-INFO
+writing dependency_links to arduino_drive.egg-info/dependency_links.txt
+writing entry points to arduino_drive.egg-info/entry_points.txt
+writing requirements to arduino_drive.egg-info/requires.txt
+writing top-level names to arduino_drive.egg-info/top_level.txt
+writing manifest file 'arduino_drive.egg-info/SOURCES.txt'
+reading manifest file 'arduino_drive.egg-info/SOURCES.txt'
+writing manifest file 'arduino_drive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/python3.10/site-packages/arduino-drive.egg-link (link to .)
+Installing drive_action_client script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/arduino_drive
+Installing drive_action_server script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/arduino_drive
+
+Installed /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive
+running symlink_data
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index
+creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index/packages
+symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/resource/arduino_drive -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index/packages
+symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/arduino_drive

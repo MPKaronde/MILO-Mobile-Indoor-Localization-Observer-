@@ -1,0 +1,9 @@
+source;share/lidarc_driver/hook/pythonpath.ps1
+source;share/lidarc_driver/hook/pythonpath.dsv
+source;share/lidarc_driver/hook/pythonpath.sh
+source;share/lidarc_driver/hook/ament_prefix_path.ps1
+source;share/lidarc_driver/hook/ament_prefix_path.dsv
+source;share/lidarc_driver/hook/ament_prefix_path.sh
+source;../../build/lidarc_driver/share/lidarc_driver/hook/pythonpath_develop.ps1
+source;../../build/lidarc_driver/share/lidarc_driver/hook/pythonpath_develop.dsv
+source;../../build/lidarc_driver/share/lidarc_driver/hook/pythonpath_develop.sh

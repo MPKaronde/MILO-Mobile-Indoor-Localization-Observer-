@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.003898] (arduino_drive) JobQueued: {'identifier': 'arduino_drive', 'dependencies': OrderedDict()}
+[0.005357] (lidarc_driver) JobQueued: {'identifier': 'lidarc_driver', 'dependencies': OrderedDict()}
+[0.006589] (arduino_drive) JobStarted: {'identifier': 'arduino_drive'}
+[0.098581] (-) TimerEvent: {}
+[0.122571] (lidarc_driver) JobStarted: {'identifier': 'lidarc_driver'}
+[0.198978] (-) TimerEvent: {}
+[0.300581] (-) TimerEvent: {}
+[0.401957] (-) TimerEvent: {}
+[0.503364] (-) TimerEvent: {}
+[0.604657] (-) TimerEvent: {}
+[0.706132] (-) TimerEvent: {}
+[0.807548] (-) TimerEvent: {}
+[0.908885] (-) TimerEvent: {}
+[1.010287] (-) TimerEvent: {}
+[1.111831] (-) TimerEvent: {}
+[1.213179] (-) TimerEvent: {}
+[1.314503] (-) TimerEvent: {}
+[1.415960] (-) TimerEvent: {}
+[1.517277] (-) TimerEvent: {}
+[1.618617] (-) TimerEvent: {}
+[1.719979] (-) TimerEvent: {}
+[1.821265] (-) TimerEvent: {}
+[1.922551] (-) TimerEvent: {}
+[2.023983] (-) TimerEvent: {}
+[2.125308] (-) TimerEvent: {}
+[2.226603] (-) TimerEvent: {}
+[2.328551] (-) TimerEvent: {}
+[2.429903] (-) TimerEvent: {}
+[2.531363] (-) TimerEvent: {}
+[2.632695] (-) TimerEvent: {}
+[2.764099] (-) TimerEvent: {}
+[2.865424] (-) TimerEvent: {}
+[2.966787] (-) TimerEvent: {}
+[3.068379] (-) TimerEvent: {}
+[3.171147] (-) TimerEvent: {}
+[3.273191] (-) TimerEvent: {}
+[3.374605] (-) TimerEvent: {}
+[3.476059] (-) TimerEvent: {}
+[3.577409] (-) TimerEvent: {}
+[3.679266] (-) TimerEvent: {}
+[3.780763] (-) TimerEvent: {}
+[3.882097] (-) TimerEvent: {}
+[3.983629] (-) TimerEvent: {}
+[4.084946] (-) TimerEvent: {}
+[4.186226] (-) TimerEvent: {}
+[4.287534] (-) TimerEvent: {}
+[4.388800] (-) TimerEvent: {}
+[4.490124] (-) TimerEvent: {}
+[4.591538] (-) TimerEvent: {}
+[4.692854] (-) TimerEvent: {}
+[4.794161] (-) TimerEvent: {}
+[4.895536] (-) TimerEvent: {}
+[4.996835] (-) TimerEvent: {}
+[5.098168] (-) TimerEvent: {}
+[5.199530] (-) TimerEvent: {}
+[5.300829] (-) TimerEvent: {}
+[5.402196] (-) TimerEvent: {}
+[5.503815] (-) TimerEvent: {}
+[5.605133] (-) TimerEvent: {}
+[5.706493] (-) TimerEvent: {}
+[5.808357] (-) TimerEvent: {}
+[5.909801] (-) TimerEvent: {}
+[6.011277] (-) TimerEvent: {}
+[6.115024] (-) TimerEvent: {}
+[6.217347] (-) TimerEvent: {}
+[6.320524] (-) TimerEvent: {}
+[6.422530] (-) TimerEvent: {}
+[6.525056] (-) TimerEvent: {}
+[6.627520] (-) TimerEvent: {}
+[6.729929] (-) TimerEvent: {}
+[6.832853] (-) TimerEvent: {}
+[6.935781] (-) TimerEvent: {}
+[7.038611] (-) TimerEvent: {}
+[7.142183] (-) TimerEvent: {}
+[7.243663] (-) TimerEvent: {}
+[7.345057] (-) TimerEvent: {}
+[7.446549] (-) TimerEvent: {}
+[7.548758] (-) TimerEvent: {}
+[7.650792] (-) TimerEvent: {}
+[7.752731] (-) TimerEvent: {}
+[7.854388] (-) TimerEvent: {}
+[7.956606] (-) TimerEvent: {}
+[8.058169] (-) TimerEvent: {}
+[8.159774] (-) TimerEvent: {}
+[8.261267] (-) TimerEvent: {}
+[8.363497] (-) TimerEvent: {}
+[8.464948] (-) TimerEvent: {}
+[8.567124] (-) TimerEvent: {}
+[8.668786] (-) TimerEvent: {}
+[8.771033] (-) TimerEvent: {}
+[8.873372] (-) TimerEvent: {}
+[8.975639] (-) TimerEvent: {}
+[9.077113] (-) TimerEvent: {}
+[9.179198] (-) TimerEvent: {}
+[9.281588] (-) TimerEvent: {}
+[9.384165] (-) TimerEvent: {}
+[9.485611] (-) TimerEvent: {}
+[9.588352] (-) TimerEvent: {}
+[9.690675] (-) TimerEvent: {}
+[9.792253] (-) TimerEvent: {}
+[9.893832] (-) TimerEvent: {}
+[9.995605] (-) TimerEvent: {}
+[10.098024] (-) TimerEvent: {}
+[10.199679] (-) TimerEvent: {}
+[10.301387] (-) TimerEvent: {}
+[10.403169] (-) TimerEvent: {}
+[10.504822] (-) TimerEvent: {}
+[10.607132] (-) TimerEvent: {}
+[10.708767] (-) TimerEvent: {}
+[10.810583] (-) TimerEvent: {}
+[10.912290] (-) TimerEvent: {}
+[11.013849] (-) TimerEvent: {}
+[11.116476] (-) TimerEvent: {}
+[11.218257] (-) TimerEvent: {}
+[11.320016] (-) TimerEvent: {}
+[11.423600] (-) TimerEvent: {}
+[11.527109] (-) TimerEvent: {}
+[11.630404] (-) TimerEvent: {}
+[11.696971] (lidarc_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'milo', 'SSH_CLIENT': '192.168.10.204 55531 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/milo', 'OLDPWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'milo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.204 55531 192.168.10.152 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.730685] (-) TimerEvent: {}
+[11.736396] (arduino_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/build', '--no-deps', 'symlink_data'], 'cwd': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'milo', 'SSH_CLIENT': '192.168.10.204 55531 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/milo', 'OLDPWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'milo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.204 55531 192.168.10.152 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.831006] (-) TimerEvent: {}
+[11.932923] (-) TimerEvent: {}
+[12.034620] (-) TimerEvent: {}
+[12.136324] (-) TimerEvent: {}
+[12.238146] (-) TimerEvent: {}
+[12.339891] (-) TimerEvent: {}
+[12.441553] (-) TimerEvent: {}
+[12.543396] (-) TimerEvent: {}
+[12.645323] (-) TimerEvent: {}
+[12.785500] (-) TimerEvent: {}
+[12.888016] (-) TimerEvent: {}
+[12.990121] (-) TimerEvent: {}
+[13.092279] (-) TimerEvent: {}
+[13.193852] (-) TimerEvent: {}
+[13.295510] (-) TimerEvent: {}
+[13.396987] (-) TimerEvent: {}
+[13.498545] (-) TimerEvent: {}
+[13.601250] (-) TimerEvent: {}
+[13.703824] (-) TimerEvent: {}
+[13.806346] (-) TimerEvent: {}
+[13.908268] (-) TimerEvent: {}
+[14.011007] (-) TimerEvent: {}
+[14.113563] (-) TimerEvent: {}
+[14.216476] (-) TimerEvent: {}
+[14.319253] (-) TimerEvent: {}
+[14.422109] (-) TimerEvent: {}
+[14.524395] (-) TimerEvent: {}
+[14.626584] (-) TimerEvent: {}
+[14.718121] (arduino_drive) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'test_require'\n"}
+[14.720072] (arduino_drive) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[14.726843] (-) TimerEvent: {}
+[14.829677] (-) TimerEvent: {}
+[14.932364] (-) TimerEvent: {}
+[15.011998] (lidarc_driver) StdoutLine: {'line': b'running develop\n'}
+[15.014230] (arduino_drive) StdoutLine: {'line': b'running develop\n'}
+[15.032680] (-) TimerEvent: {}
+[15.135565] (-) TimerEvent: {}
+[15.238276] (-) TimerEvent: {}
+[15.340304] (-) TimerEvent: {}
+[15.441951] (-) TimerEvent: {}
+[15.543854] (-) TimerEvent: {}
+[15.645442] (-) TimerEvent: {}
+[15.748359] (-) TimerEvent: {}
+[15.851112] (-) TimerEvent: {}
+[15.953845] (-) TimerEvent: {}
+[16.056586] (-) TimerEvent: {}
+[16.159514] (-) TimerEvent: {}
+[16.261903] (-) TimerEvent: {}
+[16.364304] (-) TimerEvent: {}
+[16.465806] (-) TimerEvent: {}
+[16.567496] (-) TimerEvent: {}
+[16.668984] (-) TimerEvent: {}
+[16.771129] (-) TimerEvent: {}
+[16.872595] (-) TimerEvent: {}
+[16.974101] (-) TimerEvent: {}
+[17.075646] (-) TimerEvent: {}
+[17.177215] (-) TimerEvent: {}
+[17.278943] (-) TimerEvent: {}
+[17.327361] (lidarc_driver) StdoutLine: {'line': b'running egg_info\n'}
+[17.332714] (arduino_drive) StdoutLine: {'line': b'running egg_info\n'}
+[17.340535] (arduino_drive) StdoutLine: {'line': b'creating arduino_drive.egg-info\n'}
+[17.342947] (lidarc_driver) StdoutLine: {'line': b'writing lidarc_driver.egg-info/PKG-INFO\n'}
+[17.344202] (arduino_drive) StdoutLine: {'line': b'writing arduino_drive.egg-info/PKG-INFO\n'}
+[17.345442] (lidarc_driver) StdoutLine: {'line': b'writing dependency_links to lidarc_driver.egg-info/dependency_links.txt\n'}
+[17.346623] (arduino_drive) StdoutLine: {'line': b'writing dependency_links to arduino_drive.egg-info/dependency_links.txt\n'}
+[17.347788] (arduino_drive) StdoutLine: {'line': b'writing entry points to arduino_drive.egg-info/entry_points.txt\n'}
+[17.349065] (arduino_drive) StdoutLine: {'line': b'writing requirements to arduino_drive.egg-info/requires.txt\n'}
+[17.350284] (arduino_drive) StdoutLine: {'line': b'writing top-level names to arduino_drive.egg-info/top_level.txt\n'}
+[17.358902] (lidarc_driver) StdoutLine: {'line': b'writing entry points to lidarc_driver.egg-info/entry_points.txt\n'}
+[17.365133] (lidarc_driver) StdoutLine: {'line': b'writing requirements to lidarc_driver.egg-info/requires.txt\n'}
+[17.366599] (lidarc_driver) StdoutLine: {'line': b'writing top-level names to lidarc_driver.egg-info/top_level.txt\n'}
+[17.372047] (arduino_drive) StdoutLine: {'line': b"writing manifest file 'arduino_drive.egg-info/SOURCES.txt'\n"}
+[17.373509] (lidarc_driver) StdoutLine: {'line': b"reading manifest file 'lidarc_driver.egg-info/SOURCES.txt'\n"}
+[17.374783] (arduino_drive) StdoutLine: {'line': b"reading manifest file 'arduino_drive.egg-info/SOURCES.txt'\n"}
+[17.376288] (arduino_drive) StdoutLine: {'line': b"writing manifest file 'arduino_drive.egg-info/SOURCES.txt'\n"}
+[17.377488] (lidarc_driver) StdoutLine: {'line': b"writing manifest file 'lidarc_driver.egg-info/SOURCES.txt'\n"}
+[17.379401] (-) TimerEvent: {}
+[17.382233] (arduino_drive) StdoutLine: {'line': b'running build_ext\n'}
+[17.384903] (arduino_drive) StdoutLine: {'line': b'Creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/python3.10/site-packages/arduino-drive.egg-link (link to .)\n'}
+[17.386685] (lidarc_driver) StdoutLine: {'line': b'running build_ext\n'}
+[17.388430] (lidarc_driver) StdoutLine: {'line': b'Creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/python3.10/site-packages/lidarc-driver.egg-link (link to .)\n'}
+[17.392121] (arduino_drive) StdoutLine: {'line': b'Installing drive_action_client script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/arduino_drive\n'}
+[17.394482] (arduino_drive) StdoutLine: {'line': b'Installing drive_action_server script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/lib/arduino_drive\n'}
+[17.396663] (lidarc_driver) StdoutLine: {'line': b'Installing lidarc_node script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/lib/lidarc_driver\n'}
+[17.401316] (arduino_drive) StdoutLine: {'line': b'\n'}
+[17.404640] (arduino_drive) StdoutLine: {'line': b'Installed /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive\n'}
+[17.416111] (arduino_drive) StdoutLine: {'line': b'running symlink_data\n'}
+[17.417733] (lidarc_driver) StdoutLine: {'line': b'\n'}
+[17.419371] (lidarc_driver) StdoutLine: {'line': b'Installed /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver\n'}
+[17.420986] (lidarc_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[17.422501] (arduino_drive) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index\n'}
+[17.433376] (arduino_drive) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index\n'}
+[17.434957] (arduino_drive) StdoutLine: {'line': b'creating /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index/packages\n'}
+[17.436564] (lidarc_driver) StdoutLine: {'line': b'symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/resource/lidarc_driver -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/ament_index/resource_index/packages\n'}
+[17.438296] (arduino_drive) StdoutLine: {'line': b'symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/resource/arduino_drive -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/ament_index/resource_index/packages\n'}
+[17.440036] (lidarc_driver) StdoutLine: {'line': b'symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/lidarc_driver/package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/lidarc_driver/share/lidarc_driver\n'}
+[17.441530] (arduino_drive) StdoutLine: {'line': b'symbolically linking /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/build/arduino_drive/package.xml -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install/arduino_drive/share/arduino_drive\n'}
+[17.479738] (-) TimerEvent: {}
+[17.582638] (-) TimerEvent: {}
+[17.685735] (-) TimerEvent: {}
+[17.770415] (lidarc_driver) CommandEnded: {'returncode': 0}
+[17.785952] (-) TimerEvent: {}
+[17.887475] (-) TimerEvent: {}
+[17.956966] (lidarc_driver) JobEnded: {'identifier': 'lidarc_driver', 'rc': 0}
+[17.967786] (arduino_drive) CommandEnded: {'returncode': 0}
+[17.987870] (-) TimerEvent: {}
+[18.047681] (arduino_drive) JobEnded: {'identifier': 'arduino_drive', 'rc': 0}
+[18.054281] (-) EventReactorShutdown: {}

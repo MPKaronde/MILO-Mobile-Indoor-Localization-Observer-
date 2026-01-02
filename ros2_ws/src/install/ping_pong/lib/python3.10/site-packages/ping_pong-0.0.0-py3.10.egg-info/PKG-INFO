@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ping-pong
+Version: 0.0.0
+Summary: A ping-pong ROS2 package using std_srvs/Trigger
+Home-page: UNKNOWN
+Maintainer: YOUR_NAME
+Maintainer-email: YOUR_EMAIL
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

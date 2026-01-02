@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/ping_pong/ping_pong.egg-info/PKG-INFO
+../build/ping_pong/ping_pong.egg-info/SOURCES.txt
+../build/ping_pong/ping_pong.egg-info/dependency_links.txt
+../build/ping_pong/ping_pong.egg-info/entry_points.txt
+../build/ping_pong/ping_pong.egg-info/requires.txt
+../build/ping_pong/ping_pong.egg-info/top_level.txt
+../build/ping_pong/ping_pong.egg-info/zip-safe
+ping_pong/__init__.py
+ping_pong/dt_control.py
+ping_pong/main_control.py
+resource/ping_pong
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

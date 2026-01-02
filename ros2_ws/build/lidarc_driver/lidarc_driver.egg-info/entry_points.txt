@@ -1,3 +1,0 @@
-[console_scripts]
-lidarc_node = lidarc_driver.lidarc_node:main
-

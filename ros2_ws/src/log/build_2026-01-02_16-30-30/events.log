@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.003864] (ping_pong) JobQueued: {'identifier': 'ping_pong', 'dependencies': OrderedDict()}
+[0.005323] (ping_pong) JobStarted: {'identifier': 'ping_pong'}
+[0.098287] (-) TimerEvent: {}
+[0.199936] (-) TimerEvent: {}
+[0.301331] (-) TimerEvent: {}
+[0.402598] (-) TimerEvent: {}
+[0.503869] (-) TimerEvent: {}
+[0.605202] (-) TimerEvent: {}
+[0.706476] (-) TimerEvent: {}
+[0.807727] (-) TimerEvent: {}
+[0.909113] (-) TimerEvent: {}
+[1.010467] (-) TimerEvent: {}
+[1.111636] (-) TimerEvent: {}
+[1.212901] (-) TimerEvent: {}
+[1.314220] (-) TimerEvent: {}
+[1.415442] (-) TimerEvent: {}
+[1.516748] (-) TimerEvent: {}
+[1.618127] (-) TimerEvent: {}
+[1.719427] (-) TimerEvent: {}
+[1.820674] (-) TimerEvent: {}
+[1.921987] (-) TimerEvent: {}
+[2.023237] (-) TimerEvent: {}
+[2.124526] (-) TimerEvent: {}
+[2.225872] (-) TimerEvent: {}
+[2.327130] (-) TimerEvent: {}
+[2.428384] (-) TimerEvent: {}
+[2.529725] (-) TimerEvent: {}
+[2.631030] (-) TimerEvent: {}
+[2.732325] (-) TimerEvent: {}
+[2.834042] (-) TimerEvent: {}
+[2.935634] (-) TimerEvent: {}
+[3.037593] (-) TimerEvent: {}
+[3.138875] (-) TimerEvent: {}
+[3.240223] (-) TimerEvent: {}
+[3.341631] (-) TimerEvent: {}
+[3.442879] (-) TimerEvent: {}
+[3.544110] (-) TimerEvent: {}
+[3.645513] (-) TimerEvent: {}
+[3.746779] (-) TimerEvent: {}
+[3.848109] (-) TimerEvent: {}
+[3.949413] (-) TimerEvent: {}
+[4.050674] (-) TimerEvent: {}
+[4.151983] (-) TimerEvent: {}
+[4.253248] (-) TimerEvent: {}
+[4.354458] (-) TimerEvent: {}
+[4.455771] (-) TimerEvent: {}
+[4.557098] (-) TimerEvent: {}
+[4.658390] (-) TimerEvent: {}
+[4.759627] (-) TimerEvent: {}
+[4.860832] (-) TimerEvent: {}
+[4.962264] (-) TimerEvent: {}
+[5.063504] (-) TimerEvent: {}
+[5.164777] (-) TimerEvent: {}
+[5.266048] (-) TimerEvent: {}
+[5.367315] (-) TimerEvent: {}
+[5.468655] (-) TimerEvent: {}
+[5.570009] (-) TimerEvent: {}
+[5.671250] (-) TimerEvent: {}
+[5.772632] (-) TimerEvent: {}
+[5.874066] (-) TimerEvent: {}
+[5.975387] (-) TimerEvent: {}
+[6.076671] (-) TimerEvent: {}
+[6.178053] (-) TimerEvent: {}
+[6.279403] (-) TimerEvent: {}
+[6.380850] (-) TimerEvent: {}
+[6.482443] (-) TimerEvent: {}
+[6.583895] (-) TimerEvent: {}
+[6.685468] (-) TimerEvent: {}
+[6.786754] (-) TimerEvent: {}
+[6.888142] (-) TimerEvent: {}
+[6.989656] (-) TimerEvent: {}
+[7.091510] (-) TimerEvent: {}
+[7.193265] (-) TimerEvent: {}
+[7.230844] (ping_pong) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ping_pong', 'build', '--build-base', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build', 'install', '--record', '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'milo', 'SSH_CLIENT': '192.168.10.222 60200 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/milo', 'OLDPWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'milo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '30', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.222 60200 192.168.10.152 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.293538] (-) TimerEvent: {}
+[7.394878] (-) TimerEvent: {}
+[7.496533] (-) TimerEvent: {}
+[7.598081] (-) TimerEvent: {}
+[7.699391] (-) TimerEvent: {}
+[7.800679] (-) TimerEvent: {}
+[7.902072] (-) TimerEvent: {}
+[8.003400] (-) TimerEvent: {}
+[8.104621] (-) TimerEvent: {}
+[8.206055] (-) TimerEvent: {}
+[8.307402] (-) TimerEvent: {}
+[8.408606] (-) TimerEvent: {}
+[8.510014] (-) TimerEvent: {}
+[8.611435] (-) TimerEvent: {}
+[8.712730] (-) TimerEvent: {}
+[8.814100] (-) TimerEvent: {}
+[8.915359] (-) TimerEvent: {}
+[9.016682] (-) TimerEvent: {}
+[9.118031] (-) TimerEvent: {}
+[9.219370] (-) TimerEvent: {}
+[9.320602] (-) TimerEvent: {}
+[9.421917] (-) TimerEvent: {}
+[9.523236] (-) TimerEvent: {}
+[9.624500] (-) TimerEvent: {}
+[9.726074] (-) TimerEvent: {}
+[9.827500] (-) TimerEvent: {}
+[9.928704] (-) TimerEvent: {}
+[10.000272] (ping_pong) StdoutLine: {'line': b'running egg_info\n'}
+[10.006640] (ping_pong) StdoutLine: {'line': b'writing ../build/ping_pong/ping_pong.egg-info/PKG-INFO\n'}
+[10.008941] (ping_pong) StdoutLine: {'line': b'writing dependency_links to ../build/ping_pong/ping_pong.egg-info/dependency_links.txt\n'}
+[10.011473] (ping_pong) StdoutLine: {'line': b'writing entry points to ../build/ping_pong/ping_pong.egg-info/entry_points.txt\n'}
+[10.013490] (ping_pong) StdoutLine: {'line': b'writing requirements to ../build/ping_pong/ping_pong.egg-info/requires.txt\n'}
+[10.015300] (ping_pong) StdoutLine: {'line': b'writing top-level names to ../build/ping_pong/ping_pong.egg-info/top_level.txt\n'}
+[10.029077] (-) TimerEvent: {}
+[10.034564] (ping_pong) StdoutLine: {'line': b"reading manifest file '../build/ping_pong/ping_pong.egg-info/SOURCES.txt'\n"}
+[10.044479] (ping_pong) StdoutLine: {'line': b"writing manifest file '../build/ping_pong/ping_pong.egg-info/SOURCES.txt'\n"}
+[10.046116] (ping_pong) StdoutLine: {'line': b'running build\n'}
+[10.047568] (ping_pong) StdoutLine: {'line': b'running build_py\n'}
+[10.048838] (ping_pong) StdoutLine: {'line': b'copying ping_pong/dt_control.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build/lib/ping_pong\n'}
+[10.051300] (ping_pong) StdoutLine: {'line': b'copying ping_pong/main_control.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build/lib/ping_pong\n'}
+[10.054272] (ping_pong) StdoutLine: {'line': b'running install\n'}
+[10.058412] (ping_pong) StdoutLine: {'line': b'running install_lib\n'}
+[10.065829] (ping_pong) StdoutLine: {'line': b'copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build/lib/ping_pong/dt_control.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong\n'}
+[10.068263] (ping_pong) StdoutLine: {'line': b'copying /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build/lib/ping_pong/main_control.py -> /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong\n'}
+[10.074325] (ping_pong) StdoutLine: {'line': b'byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong/dt_control.py to dt_control.cpython-310.pyc\n'}
+[10.081111] (ping_pong) StdoutLine: {'line': b'byte-compiling /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong/main_control.py to main_control.cpython-310.pyc\n'}
+[10.086275] (ping_pong) StdoutLine: {'line': b'running install_data\n'}
+[10.088459] (ping_pong) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.104574] (ping_pong) StdoutLine: {'line': b"removing '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.108780] (ping_pong) StdoutLine: {'line': b'Copying ../build/ping_pong/ping_pong.egg-info to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages/ping_pong-0.0.0-py3.10.egg-info\n'}
+[10.122566] (ping_pong) StdoutLine: {'line': b'running install_scripts\n'}
+[10.129281] (-) TimerEvent: {}
+[10.230797] (-) TimerEvent: {}
+[10.310428] (ping_pong) StdoutLine: {'line': b'Installing dt_control script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/ping_pong\n'}
+[10.312447] (ping_pong) StdoutLine: {'line': b'Installing main_control script to /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/ping_pong\n'}
+[10.316577] (ping_pong) StdoutLine: {'line': b"writing list of installed files to '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/install.log'\n"}
+[10.331216] (-) TimerEvent: {}
+[10.432863] (-) TimerEvent: {}
+[10.534543] (-) TimerEvent: {}
+[10.574722] (ping_pong) CommandEnded: {'returncode': 0}
+[10.635370] (-) TimerEvent: {}
+[10.691131] (ping_pong) JobEnded: {'identifier': 'ping_pong', 'rc': 0}
+[10.698062] (-) EventReactorShutdown: {}

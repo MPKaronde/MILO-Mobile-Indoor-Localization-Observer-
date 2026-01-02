@@ -1,0 +1,116 @@
+[1.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9f153010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9f28c3a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9f28c3a0>>)
+[3.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.075s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extension 'ignore'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extension 'ignore_ament_install'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extensions ['colcon_pkg']
+[3.204s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extension 'colcon_pkg'
+[3.204s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extensions ['colcon_meta']
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extension 'colcon_meta'
+[3.205s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extensions ['ros']
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(ping_pong) by extension 'ros'
+[3.233s] DEBUG:colcon.colcon_core.package_identification:Package 'ping_pong' with type 'ros.ament_python' and name 'ping_pong'
+[3.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.419s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/install
+[3.449s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[3.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.996s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_args' from command line to 'None'
+[3.996s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_target' from command line to 'None'
+[3.997s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.997s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_clean_cache' from command line to 'False'
+[3.997s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_clean_first' from command line to 'False'
+[3.997s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'cmake_force_configure' from command line to 'False'
+[3.998s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'ament_cmake_args' from command line to 'None'
+[3.998s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'catkin_cmake_args' from command line to 'None'
+[3.998s] Level 5:colcon.colcon_core.verb:set package 'ping_pong' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.998s] DEBUG:colcon.colcon_core.verb:Building package 'ping_pong' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong', 'merge_install': False, 'path': '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong', 'symlink_install': False, 'test_result_base': None}
+[4.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.009s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong' with build type 'ament_python'
+[4.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('ping_pong', 'ament_prefix_path')
+[4.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/ament_prefix_path.ps1'
+[4.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/ament_prefix_path.dsv'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/ament_prefix_path.sh'
+[4.058s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.071s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong'
+[7.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ping_pong build --build-base /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build install --record /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/install.log --single-version-externally-managed install_data
+[15.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/ping_pong' returned '0': PYTHONPATH=/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ping_pong build --build-base /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/build install --record /home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/build/ping_pong/install.log --single-version-externally-managed install_data
+[15.512s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong' for CMake module files
+[15.518s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong' for CMake config files
+[15.527s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib'
+[15.529s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/bin'
+[15.530s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/pkgconfig/ping_pong.pc'
+[15.533s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/lib/python3.10/site-packages'
+[15.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('ping_pong', 'pythonpath')
+[15.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/pythonpath.ps1'
+[15.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/pythonpath.dsv'
+[15.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/hook/pythonpath.sh'
+[15.550s] Level 1:colcon.colcon_core.environment:checking '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/bin'
+[15.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ping_pong)
+[15.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/package.ps1'
+[15.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/package.dsv'
+[15.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/package.sh'
+[15.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/package.bash'
+[15.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/ping_pong/package.zsh'
+[15.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/ping_pong/share/colcon-core/packages/ping_pong)
+[15.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.604s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.606s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.665s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.666s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.666s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.672s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.673s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/local_setup.ps1'
+[15.686s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/_local_setup_util_ps1.py'
+[15.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/setup.ps1'
+[15.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/local_setup.sh'
+[15.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/_local_setup_util_sh.py'
+[15.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/setup.sh'
+[15.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/local_setup.bash'
+[15.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/setup.bash'
+[15.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/local_setup.zsh'
+[15.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/milo/project_parts/MILO-Mobile-Indoor-Localization-Observer-/ros2_ws/src/install/setup.zsh'

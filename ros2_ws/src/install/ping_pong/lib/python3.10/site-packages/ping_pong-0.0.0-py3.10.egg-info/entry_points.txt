@@ -1,0 +1,4 @@
+[console_scripts]
+dt_control = ping_pong.dt_control:main
+main_control = ping_pong.main_control:main
+
